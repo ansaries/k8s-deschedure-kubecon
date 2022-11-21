@@ -3,7 +3,7 @@
 ### About me
 https://arslanali.io
 
-
+## What is a Descheduler
 Binding and placement of pending Pods on to respective nodes are managed by a scheduler in kubernetes called kube-scheduler. The placement decision are often managed by configurable scheduling policies and rules, often called as predicates and priorities. The desicion of a scheduler is based on the actual condition/state of the Cluster at the time when the Pod is requested to be deployed. Since the Kubernetes cluster may change its state by update/change of labels, taints, tolerations or even by introducing new nodes into it. There may be a desire of relocating a pod from one node to another, a.k.a descheduler.
 
 ## When do you need a Descheduler
